@@ -2,6 +2,8 @@ import random
 
 
 def hangman(word):
+    # Time complexity: O(n)
+    # Space complexity: O(n)
     wrong = 0
     stages = ["",
               "______       ",
